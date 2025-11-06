@@ -166,6 +166,9 @@
   background: linear-gradient(180deg, #0C1124 0%, #121B36 100%);
   border-radius: 8px;
   z-index: 1;
+  border-bottom: 2px solid #0F1845;
+  border-left: 2px solid #0F1845;
+  border-right: 2px solid #0F1845;
 }
 
 .tools {
@@ -208,6 +211,7 @@
   color: white;
   font-size: 17px;
   font-family: monospace;
+  
 }
 .yellow_code_txt{
   color: #FFD22E;
@@ -268,6 +272,7 @@
   }
   .Home_Left {
     padding-top: 50px;
+    min-height: 500px;
   }
   .btn {
     padding: 1rem 1rem;
