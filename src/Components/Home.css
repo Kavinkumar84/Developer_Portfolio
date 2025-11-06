@@ -169,6 +169,26 @@
   border-bottom: 2px solid #0F1845;
   border-left: 2px solid #0F1845;
   border-right: 2px solid #0F1845;
+  position: relative;
+}
+
+.card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: linear-gradient(
+    to right,
+    #0D1224 0%,
+    #0D1224 8%,
+    #f43f5e 20%,
+    #f43f5e 35%,
+    #1e3a8a 50%,
+    #1e3a8a 100%
+  );
+  border-radius: 8px 8px 0 0;
 }
 
 .tools {
@@ -215,7 +235,7 @@
 }
 .yellow_code_txt{
   color: #FFD22E;
-  font-size: 17px;
+  /* font-size: 17px; */
   font-family: monospace;
 }
 .orrange_code_txt{
@@ -264,6 +284,19 @@
     font-size: 35px;
     font-weight: 800;
   }
+}
+@media (max-width: 425px) {
+  .card__content{
+  /* border: 1px solid white; */
+  /* height: 100%; */
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 40px;
+  color: white;
+  font-size: 12px;
+  font-family: monospace;
+  
+}
 }
 @media (max-width: 375px) {
   .Home_Left_Txt1 {
