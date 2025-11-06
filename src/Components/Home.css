@@ -287,14 +287,19 @@
 }
 @media (max-width: 425px) {
   .card__content{
-  /* border: 1px solid white; */
-  /* height: 100%; */
   padding-left: 30px;
   padding-right: 30px;
   padding-top: 40px;
-  color: white;
-  font-size: 12px;
-  font-family: monospace;
+  font-size: 15px;
+  
+}
+}
+@media (max-width: 320px) {
+  .card__content{
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 40px;
+  font-size: 13px;
   
 }
 }
