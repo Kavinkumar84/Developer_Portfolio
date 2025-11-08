@@ -22,7 +22,7 @@ const Home = () => {
             <div className="Navbar">
               <nav>
                 <li>
-                  <a href="">ABOUT</a>
+                  <a href="About">ABOUT</a>
                 </li>
                 <li>
                   <a href="">EXPERIENCE</a>
@@ -55,27 +55,27 @@ const Home = () => {
                     <span style={{ color: "#16f2b3" }}> Web Developer</span>.
                   </div>
                   <div className="Social_Icons">
-                    <a href="https://github.com/Kavinkumar84">
+                    <a href="https://github.com/Kavinkumar84" target="_blank">
                       <div className="iconss">
                         <FaGithub />
                       </div>
                     </a>
-                    <a href="https://www.linkedin.com/in/kavinkumar84/">
+                    <a href="https://www.linkedin.com/in/kavinkumar84/" target="_blank">
                       <div className="iconss">
                         <FaLinkedin />
                       </div>
                     </a>
-                    <a href="https://leetcode.com/u/Kavinkumar84/">
+                    <a href="https://leetcode.com/u/Kavinkumar84/" target="_blank">
                       <div className="iconss">
                         <SiLeetcode />
                       </div>
                     </a>
-                    <a href="https://www.geeksforgeeks.org/user/kavinkuma29i4/">
+                    <a href="https://www.geeksforgeeks.org/user/kavinkuma29i4/" target="_blank">
                       <div className="iconss">
                         <SiGeeksforgeeks />
                       </div>
                     </a>
-                    <a href="">
+                    <a href="" target="_blank">
                       <div className="iconss">
                         <FaTwitterSquare />
                       </div>
@@ -108,18 +108,19 @@ const Home = () => {
                       </div>
                     </div>
                     <div class="card__content">
-                      <div className="Home_card_txt1">
+                      <div className="Home_card_txt">
                         <div><span style={{color : "#e60076"}}>const</span> coder<span style={{color : "#e60076"}}> = </span>{bracket_open}</div>
-                        <div className="Home_card_txt2">
+                        <div className="Home_card_txt1">
                           <div className="">name:'<span className="yellow_code_txt">Kavin Kumar</span>',</div>
+                          <div className="">title:['<span className="yellow_code_txt">MERN Stack Developer</span>', '<span className="yellow_code_txt">React.js Developer</span>', '<span className="yellow_code_txt">Problem Solver</span>'],</div>
                           <div className="">skills:['<span className="yellow_code_txt">Java</span>','<span className="yellow_code_txt">HTML</span>', '<span className="yellow_code_txt">CSS</span>', '<span className="yellow_code_txt">JavaScript</span>', '<span className="yellow_code_txt">React</span>', '<span className="yellow_code_txt">NodeJS</span>', '<span className="yellow_code_txt">Express</span>', '<span className="yellow_code_txt">MangoDB</span>', '<span className="yellow_code_txt">MySql</span>'],</div>
                           <div className="">hardWorker: <span className="orrange_code_txt">true</span>,</div>
                           <div className="">quickLearner: <span className="orrange_code_txt">true</span>,</div>
                           <div className="">problemSolver: <span className="orrange_code_txt">true</span>,</div>
                           <div className=""><span className="green_code_txt">hireable: </span><span className="orrange_code_txt">function</span>() {bracket_open} </div>
-                          <div className="Home_card_txt3">
+                          <div className="Home_card_txt1">
                             <div className=""><span className="orrange_code_txt">return </span>(</div>
-                            <div className="Home_card_txt4">
+                            <div className="Home_card_txt1">
                               <div className=""><span className="blue_code_txt">this.</span>hardWorker <span className="yellow_code_txt">&&</span></div>
                               <div className=""><span className="blue_code_txt">this.</span>problemSolver <span className="yellow_code_txt">&&</span></div>
                               <div className=""><span className="blue_code_txt">this.</span>skills.length <span className="yellow_code_txt">{">"}=</span><span className="orrange_code_txt"> 5</span></div>

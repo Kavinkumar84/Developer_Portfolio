@@ -242,15 +242,6 @@
   color: #FF8911;
 }
 .Home_card_txt1{
-  /* padding-left: 30px; */
-}
-.Home_card_txt2{
-  padding-left: 30px;
-}
-.Home_card_txt3{
-  padding-left: 30px;
-}
-.Home_card_txt4{
   padding-left: 30px;
 }
 .green_code_txt{
@@ -299,7 +290,7 @@
   padding-left: 15px;
   padding-right: 15px;
   padding-top: 40px;
-  font-size: 13px;
+  font-size: 15px;
   
 }
 }
