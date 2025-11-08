@@ -109,10 +109,10 @@ const Home = () => {
                     </div>
                     <div class="card__content">
                       <div className="Home_card_txt">
-                        <div><span style={{color : "#e60076"}}>const</span> coder<span style={{color : "#e60076"}}> = </span>{bracket_open}</div>
+                        <div><span style={{color : "#e60076"}}>const</span> Developer<span style={{color : "#e60076"}}> = </span>{bracket_open}</div>
                         <div className="Home_card_txt1">
                           <div className="">name:'<span className="yellow_code_txt">Kavin Kumar</span>',</div>
-                          <div className="">title:['<span className="yellow_code_txt">MERN Stack Developer</span>', '<span className="yellow_code_txt">React.js Developer</span>', '<span className="yellow_code_txt">Problem Solver</span>'],</div>
+                          <div className="">title:['<span className="yellow_code_txt">MERN Stack Developer</span>', '<span className="yellow_code_txt">React.js Developer</span>', '<span className="yellow_code_txt">Node.js Developer</span>'],</div>
                           <div className="">skills:['<span className="yellow_code_txt">Java</span>','<span className="yellow_code_txt">HTML</span>', '<span className="yellow_code_txt">CSS</span>', '<span className="yellow_code_txt">JavaScript</span>', '<span className="yellow_code_txt">React</span>', '<span className="yellow_code_txt">NodeJS</span>', '<span className="yellow_code_txt">Express</span>', '<span className="yellow_code_txt">MangoDB</span>', '<span className="yellow_code_txt">MySql</span>'],</div>
                           <div className="">hardWorker: <span className="orrange_code_txt">true</span>,</div>
                           <div className="">quickLearner: <span className="orrange_code_txt">true</span>,</div>

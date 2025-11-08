@@ -88,13 +88,14 @@
   display: flex;
   flex-direction: column;
   gap: 40PX;
+  min-height: 500px;
 }
 .Home_Left_Txt1 {
   font-size: 45px;
   font-weight: 800;
   color: white;
 }
-.Home_Left,
+
 .Home_Right {
   /* border: 1px solid white; */
   min-height: 600px;
@@ -284,6 +285,10 @@
   font-size: 15px;
   
 }
+.Home_Left {
+    padding-top: 50px;
+    min-height: 500px;
+  }
 }
 @media (max-width: 320px) {
   .card__content{
