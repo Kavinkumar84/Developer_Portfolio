@@ -177,6 +177,48 @@ button {
   align-items: center;
   color: #1e2939;
 }
+.Contact_hr{
+  color: white;
+}
+.Contact_Footer{
+  height: 60px;
+  width: 100%;
+  /* border: 1px solid red; */
+  display: flex;
+  align-items: center;
+}
+.Contact_Footer_txt{
+  color: white;
+  font-size: 15px;
+}
+.Contact_Footer_txt a{
+  text-decoration: none;
+  color: #16f2b3;
+}
+.Contact_Footer_Star{
+  color: white;
+}
+.Contact_Footer_right, .Contact_Footer_Star a{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.Contact_Footer{
+  padding-left: 30px;
+  padding-right: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.Contact_Footer_Star a{
+  text-decoration: none;
+  color: white;
+}
+.Contact_Footer_Star a:hover{
+  color: #16f2b3;
+}
+
+
 @media (max-width: 1124px) {
   .Contact_Address_box a {
     font-size: 20px;
@@ -233,6 +275,7 @@ button {
     margin-top: 100px;
   }
 }
+
 
 @media (max-width: 400px) {
   .Contact_Address_box a {

@@ -2,9 +2,10 @@ import React from "react";
 import "./Contact.css";
 import { Col, Row } from "react-bootstrap";
 import { LuMailPlus } from "react-icons/lu";
-import { FaAt, FaGithub, FaLinkedin, FaPhoneAlt, FaTwitterSquare } from "react-icons/fa";
+import { FaAt, FaGithub, FaLinkedin, FaPhoneAlt, FaStar, FaTwitterSquare } from "react-icons/fa";
 import { FaLocationDot } from "react-icons/fa6";
 import { SiGeeksforgeeks, SiLeetcode } from "react-icons/si";
+import { GoGitBranch } from "react-icons/go";
 const Contact = () => {
   return (
     <div id="Contact">
@@ -55,7 +56,7 @@ const Contact = () => {
                 <Col lg={5}>
                   <div className="Contact_Address">
                     <div className="Contact_Address_box">
-                      <a href="mailto:kavinkumar200448@gmail.com">
+                      <a href="mailto:kavinkumar200448@gmail.com" target="_blank">
                         <div className="Contact_Address_Mail">
                           <div className="Contact_Address_Circle">
                             <FaAt />
@@ -65,7 +66,7 @@ const Contact = () => {
                           </div>
                         </div>
                       </a>
-                      <a href="tel:+91 9360632201">
+                      <a href="tel:+91 9360632201" target="_blank">
                         <div className="Contact_Address_Mail">
                           <div className="Contact_Address_Circle">
                             <FaPhoneAlt />
@@ -73,13 +74,13 @@ const Contact = () => {
                           <div className="Address_Mail">+91 9360632201</div>
                         </div>
                       </a>
-                      <a href="mailto:kavinkumar200448@gmail.com">
+                      <a href="https://maps.app.goo.gl/ezwVTvb7w246PAfBA" target="_blank">
                         <div className="Contact_Address_Mail">
                           <div className="Contact_Address_Circle">
                             <FaLocationDot />
                           </div>
                           <div className="Address_Mail">
-                            kavinkumar200448@gmail
+                            Dharapuram
                           </div>
                         </div>
                       </a>
@@ -135,6 +136,25 @@ const Contact = () => {
             </div>
           </Col>
         </Row>
+      </div>
+      <hr className="Contact_hr"/>
+      <div className="Contact_Footer">
+        <div className="Contact_Footer_txt">© Developer Portfolio by <a href="https://github.com/Kavinkumar84/Developer_Portfolio" target="_blank">Kavin Kumar</a></div>
+        <div className="Contact_Footer_right">
+          <div className="Contact_Footer_Star">
+            <a href="https://github.com/Kavinkumar84/Developer_Portfolio" target="_blank">
+              <FaStar />
+              <div className="Star_txt">Star</div>
+            </a>
+          </div>
+          <div className="Contact_Footer_Star">
+            <a href="https://github.com/Kavinkumar84/Developer_Portfolio/fork" target="_blank">
+              <GoGitBranch />
+              <div className="Star_txt">Fork</div>
+            </a>
+          </div>
+          <div className="Contact_Footer_Fork"></div>
+        </div>
       </div>
     </div>
   );

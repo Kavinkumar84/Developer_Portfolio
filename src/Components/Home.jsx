@@ -23,19 +23,19 @@ const Home = () => {
             <div className="Navbar">
               <nav>
                 <li>
-                  <a href="About">ABOUT</a>
+                  <a href="#About">ABOUT</a>
                 </li>
                 <li>
-                  <a href="">EXPERIENCE</a>
+                  <a href="#Experience">EXPERIENCE</a>
                 </li>
                 <li>
-                  <a href="">SKILLS</a>
+                  <a href="#Skill">SKILLS</a>
                 </li>
                 <li>
-                  <a href="">EDUCATION</a>
+                  <a href="#Educations">EDUCATION</a>
                 </li>
                 <li>
-                  <a href="">PROJECTS</a>
+                  <a href="#Projects">PROJECTS</a>
                 </li>
                 <li>
                   <a href="#Contact">CONTACT</a>
