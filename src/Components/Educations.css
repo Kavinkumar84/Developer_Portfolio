@@ -1,5 +1,179 @@
 #Educations{
-    background-color: #0D1325;
+    /* background-color: #0D1325;    */
+    background-color: black;
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
+    padding-bottom: 80px;
+    
+}
+.Education_bg{
+    /* background-image: url('https://abusaid.netlify.app/section.svg'); */
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+.Education_Whole{
+  /* padding-top: 80px; */
+  width: 90%;
+  height: 100%;
+  margin-left: 5%;
+}
+.Education_Container{
+    width: 100%;
+    height: 88%;
+    /* border: 1px solid white; */
+}
+.Education_Header {
+  width: 100%;
+  height: 12%; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Education_Right_box{
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  background-color: #1a1740;
+  border-radius: 8px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  width: max-content;
+  padding-left: 15px;
+  padding-right: 15px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgb(25, 21, 21);
+  
+}
+.line_Education{
+    width: 140px;
+    height: 1px;
+    /* border: 1px solid #bdbcd6; */
+}
+.Education_Left , .Education_Right{
+  width: 100%;
+  min-height: 540px;
+  /* border: 1px solid red; */
+}
+.Education_Right{
+  padding-top: 40px;
+  display: flex;
+  flex-direction: column;
+  /* gap: 30px; */
+  justify-content: space-between;
+}
+.Education_Left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Education_animation{
+  width: 80%;
+  height: 60%;
+}
+.Education_details{
+  width: 100%;
+  height: 150px;
+  border: 1px solid whitesmoke;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.Education_Detail_top{
+  width: 100%;
+  /* border: 1px solid red; */
+  /* height: 20%; */
+  color: #16F2B3;
+  text-align: center;
+  font-size: 17px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+.Education_Detail_bottom{
+  /* border: 1px solid green; */
+  height: 100%;
+  display: flex;
+}
+.Education_College_detail{
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 80px;
+}
+.Education_detail_icon{
+  /* border: 1px solid red; */
+  width: 15%;
+  height: 70%;
+  font-size: 40px;
+  color: #8E50FF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Education_txt1{
+  font-weight: 600;
+  font-size: 25px;
+}
+
+
+
+
+@media (max-width : 991px) {
+  .Education_Whole{
+    padding-top: 50px;
+  }
+  .Education_Left{
+    min-height: 300px;
+  }
+  .Education_animation{
+    width: 60%;
+  }
+  #Educations{
+    padding-bottom: 0px;
+  }
+}
+
+@media (max-width : 656px) {
+  .Education_txt1{
+    font-size: 20px;
+  }
+  .Education_detail_icon{
+    font-size: 33px;
+  }
+  .Education_Left{
+    min-height: 300px;
+  }
+  .Education_animation{
+    width: 60%;
+  }
+  
+}
+
+@media (max-width : 475px) {
+  .Education_txt1{
+    font-size: 15px;
+  }
+  .Education_detail_icon{
+    font-size: 28px;
+  }
+  .Education_Detail_bottom{
+    gap: 20px;
+  }
+  .Education_details{
+    padding-left: 20px;
+  }
+  .Education_txt2{
+    font-size: 13px;
+  }
+  .Education_Left{
+    min-height: 300px;
+  }
+  .Education_animation{
+    width: 100%;
+  }
+  
 }

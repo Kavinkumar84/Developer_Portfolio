@@ -51,7 +51,8 @@
   width: 100%;
   height: 100%;
   z-index: -1;
-  background-color: #0D1325;  
+  /* background-color: #0D1325;   */
+  background-color: black;
 }
 
 .LottieBg > div {
@@ -188,15 +189,11 @@
   margin: 0 auto;
   border-radius: 8px;
   z-index: 1;
-  background-color: rgba(21, 21, 20, 0.464);
-  background-color: #202127;
-  /* background-color: transparent; */
-  border-bottom: 2px solid #0f1845;
+  background-color: #5c5a5a;
   border-left: 2px solid #0f1845;
   border-right: 2px solid #0f1845;
   position: relative;
 }
-
 .card::before {
   content: "";
   position: absolute;

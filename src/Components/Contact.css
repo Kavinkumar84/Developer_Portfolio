@@ -1,5 +1,6 @@
 #Contact {
-  background-color: #0d1224;
+  /* background-color: #0d1224; */
+  background-color: black;
   width: 100%;
   min-height: 100vh;
   /* padding: 0px 60px 0px 60px; */
@@ -268,12 +269,10 @@ button {
   .Contact_Address{
     padding-left: 0px;
   }
+ 
 }
 @media (max-width: 375px) {
-  .Contact_left {
-    min-height: 0px;
-    margin-top: 100px;
-  }
+  
 }
 
 
@@ -298,4 +297,5 @@ button {
   .Contact_Address{
     gap: 50px;
   }
+  
 }
