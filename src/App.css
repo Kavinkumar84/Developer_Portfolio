@@ -5,4 +5,5 @@
 }
 .App{
     /* background-color: #030406; */
+    background: linear-gradient(135deg, #151126 0%,#0D1224 50%, #0d1224 100%);
 }

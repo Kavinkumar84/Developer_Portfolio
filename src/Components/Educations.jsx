@@ -63,7 +63,6 @@ const Educations = () => {
                       </div>
                     </div>
                   </div>
-                  
                 </div>
               </Col>
             </Row>

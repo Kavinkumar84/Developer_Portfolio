@@ -1,0 +1,119 @@
+#Experience {
+  width: 100%;
+  /* height: 100vh; */
+  /* background-color: black; */
+}
+.Experience_whole {
+  width: 90%;
+  height: 100%;
+  margin-left: 5%;
+}
+.Experience_container {
+  width: 100%;
+  height: 88%;
+  margin-top: 30px;
+}
+.Experience_left {
+  width: 100%;
+  height: 100%;
+  border: 2px solid rgb(150, 141, 141);
+  background-color: #121b35;
+  padding: 30px;
+  color: white;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  /* margin-bottom: 25px; */
+}
+.Experience_h1 {
+  font-size: 33px;
+  font-weight: 700;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  gap: 20px;
+  /* border: 1px solid red; */
+}
+.Experience_h2 {
+  font-size: 19px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.Experience_h3 {
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.book_clr {
+  color: #14b8a6;
+}
+.Experience_left_H1 {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.Experience_line {
+  height: 100%;
+  width: 0px;
+  border: 1px solid #14b8a6;
+}
+.Experience_left_H2 {
+  display: flex;
+  gap: 15px;
+}
+.Experience_h5 {
+  display: flex;
+  gap: 15px;
+}
+.trophy_clr {
+  color: #eab308;
+}
+.Experience_h4 {
+  font-weight: 500;
+}
+.Experience_left_H3 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.Experience_proj {
+  background-color: #3e3a71;
+  width: max-content;
+  display: flex;
+  gap: 10px;
+  padding: 7px;
+  padding-left: 10px;
+  padding-right: 10px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+}
+.Experience_badge {
+  color: #2dd4bf;
+}
+.Experience_left_H4 {
+  display: flex;
+  gap: 10px;
+  width: 100%;
+ flex-wrap: wrap;
+}
+.Experience_tech {
+  width: max-content;
+  padding: 10px;
+  background-color: #24314f;
+  color: #93C5FD;
+  border-radius: 7px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+}
+.Experience_h6{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}

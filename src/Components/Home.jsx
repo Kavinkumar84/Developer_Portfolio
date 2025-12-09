@@ -14,9 +14,7 @@ const Home = () => {
   return (
     <div className="Home">
       <div className="Home_bg">
-        <div className="LottieBg">
-          <Lottie animationData={bg} loop />
-        </div>
+        
         <div className="Home_Container1">
           <div className="Home_Header">
             <div className="Header_name">Kavin Kumar</div>

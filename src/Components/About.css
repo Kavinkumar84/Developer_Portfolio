@@ -1,6 +1,6 @@
 #About {
   /* background: linear-gradient(135deg, #151126 0%, #0d1224 50%, #0d1224 100%); */
-  background-color: black;
+  /* background-color: black; */
   background-size: 300% 300%;
   animation: moveGradient 12s ease infinite;
 }

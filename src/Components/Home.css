@@ -28,22 +28,21 @@
 }
 .Home {
   min-height: 100vh;
-  /* background: linear-gradient(135deg, #151126 0%, #0d1224 50%, #0d1224 100%); */
+  
   background-size: 300% 300%;
   animation: moveGradient 12s ease infinite;
   display: flex;
-  
-  
 }
 .Home_Container1 {
   width: 90%;
   margin-left: 5%;
 }
 .Home_bg {
- position: relative;
   width: 100%;
-  min-height: 100vh;
-  overflow: hidden; width: 100%;
+  background-image: url("https://abusaid.netlify.app/hero.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 .LottieBg {
   position: absolute;
@@ -185,13 +184,15 @@
 
 .card {
   width: 100%;
-  padding-bottom: 25px;
+  /* min-height: 504px; */
+  padding-bottom: 40px;
   margin: 0 auto;
+  background: linear-gradient(180deg, #0C1124 0%, #121B36 100%);
   border-radius: 8px;
   z-index: 1;
-  background-color: #5c5a5a;
-  border-left: 2px solid #0f1845;
-  border-right: 2px solid #0f1845;
+  border-bottom: 2px solid #0F1845;
+  border-left: 2px solid #0F1845;
+  border-right: 2px solid #0F1845;
   position: relative;
 }
 .card::before {
