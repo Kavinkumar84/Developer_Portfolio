@@ -23,8 +23,8 @@ const Contact = () => {
                         hesitate to contact me. I am open to any work
                         opportunities that align with my skills and interests.
                       </div>
-                      <div class="input_group">
-                        <label class="user-label">Your Name</label>
+                      <div className="input_group">
+                        <label className="user-label">Your Name</label>
                         <input
                           required=""
                           type="text"
@@ -32,8 +32,8 @@ const Contact = () => {
                           className="Contact_Form_input"
                         />
                       </div>
-                      <div class="input_group">
-                        <label class="user-label">Your Email</label>
+                      <div className="input_group">
+                        <label className="user-label">Your Email</label>
                         <input
                           required=""
                           type="text"
@@ -41,8 +41,8 @@ const Contact = () => {
                           className="Contact_Form_input"
                         />
                       </div>
-                      <div class="input_group">
-                        <label class="user-label">Your Message:</label>
+                      <div className="input_group">
+                        <label className="user-label">Your Message:</label>
                         <textarea className="bigInput"></textarea>
                       </div>
                       <div className="Contact_btn">

@@ -27,7 +27,7 @@ const Home = () => {
                   <a href="#Experience">EXPERIENCE</a>
                 </li>
                 <li>
-                  <a href="#Skill">SKILLS</a>
+                  <a href="#Skills">SKILLS</a>
                 </li>
                 <li>
                   <a href="#Educations">EDUCATION</a>
