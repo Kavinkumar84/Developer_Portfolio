@@ -117,3 +117,10 @@
   flex-wrap: wrap;
   gap: 10px;
 }
+
+
+@media (max-width: 991px) {
+  .Experience_left{
+    margin-bottom: 30px;
+  }
+}

@@ -47,6 +47,9 @@
   width: 250px;
   height: 250px;
   background-color: red;
+  /* background-image: url("src/assets/1961.png");
+  background-repeat: no-repeat;
+  background-size: contain; */
 }
 
 .About_Right_title {

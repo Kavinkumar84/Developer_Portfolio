@@ -18,8 +18,7 @@
   align-items: center;
 }
 .Project_Card {
- border: 1px solid;
-  border-image: linear-gradient(144deg, #AF40FF, #5B42F3 50%, #00DDEB) 1;
+  border: 2px solid #312c85;
 
   background-color: #121B35;
   border-radius: 10px;
@@ -100,8 +99,9 @@
   top: 20px;
 }
 .line_Project {
-  width: 140px;
+  width: 100px;
   height: 1px;
+  border: 1px solid #2C2254;
 }
 .Project_Right_box {
   color: #fff;
@@ -139,4 +139,58 @@
 .c5{
     position: sticky;
     top: 200px;
+}
+
+@media (max-width: 991px) {
+  .Project_Card{
+    width: 100%;
+  }
+
+.Project_Card_Crcl1 {
+  width: 10px;
+  height: 10px;
+}
+.Project_Card_Crcl2 {
+  width: 10px;
+  height: 10px;
+}
+.Project_Card_Crcl3 {
+  width: 10px;
+  height: 10px;
+}
+.Project_Card_Top_Title {
+  color: #16f2b3;
+  font-size: 20px;
+  font-weight: 600;
+}
+.Project_Card_Content_R1 {
+  font-size: 15px;
+}
+.Project_Card_Content_R2 {
+  font-size: 15px;
+}
+.c1{
+    position: sticky;
+    top: 70px;
+}
+.c2{
+    position: sticky;
+    top: 130px;
+}
+.c3{
+    position: sticky;
+    top: 130px;
+}
+.c4{
+    position: sticky;
+    top: 130px;
+}
+.c5{
+    position: sticky;
+    top: 130px;
+}
+.Project_Header {
+
+  top: 10px;
+}
 }
