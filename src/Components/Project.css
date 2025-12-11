@@ -20,7 +20,7 @@
 .Project_Card {
   border: 2px solid #312c85;
 
-  background-color: #121B35;
+  background-color: #121b35;
   border-radius: 10px;
   min-height: 440px;
   margin-top: 30px;
@@ -101,7 +101,7 @@
 .line_Project {
   width: 100px;
   height: 1px;
-  border: 1px solid #2C2254;
+  border: 1px solid #2c2254;
 }
 .Project_Right_box {
   color: #fff;
@@ -120,103 +120,133 @@
   justify-content: center;
   border: 1px solid rgb(25, 21, 21);
 }
-.c1{
-    position: sticky;
-    top: 90px;
+.c1 {
+  position: sticky;
+  top: 90px;
 }
-.c2{
-    position: sticky;
-    top: 150px;
+.c2 {
+  position: sticky;
+  top: 150px;
 }
-.c3{
-    position: sticky;
-    top: 210px;
+.c3 {
+  position: sticky;
+  top: 210px;
 }
-.c4{
-    position: sticky;
-    top: 150px;
+.c4 {
+  position: sticky;
+  top: 150px;
 }
-.c5{
-    position: sticky;
-    top: 200px;
+.c5 {
+  position: sticky;
+  top: 200px;
 }
 
 @media (max-width: 991px) {
-  .Project_Card{
+  .Project_Card {
     width: 100%;
   }
 
-.Project_Card_Crcl1 {
-  width: 10px;
-  height: 10px;
+  .Project_Card_Crcl1 {
+    width: 10px;
+    height: 10px;
+  }
+  .Project_Card_Crcl2 {
+    width: 10px;
+    height: 10px;
+  }
+  .Project_Card_Crcl3 {
+    width: 10px;
+    height: 10px;
+  }
+  .Project_Card_Top_Title {
+    color: #16f2b3;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .Project_Card_Content_R1 {
+    font-size: 15px;
+  }
+  .Project_Card_Content_R2 {
+    font-size: 15px;
+  }
+  .c1 {
+    position: sticky;
+    top: 70px;
+  }
+  .c2 {
+    position: sticky;
+    top: 130px;
+  }
+  .c3 {
+    position: sticky;
+    top: 130px;
+  }
+  .c4 {
+    position: sticky;
+    top: 130px;
+  }
+  .c5 {
+    position: sticky;
+    top: 130px;
+  }
+  .Project_Header {
+    top: 10px;
+  }
 }
-.Project_Card_Crcl2 {
-  width: 10px;
-  height: 10px;
+
+@media (max-width: 380px) {
+  .Project_Card_Content_R2 {
+    font-size: 12px;
+    line-height: 17px;
+  }
 }
-.Project_Card_Crcl3 {
-  width: 10px;
-  height: 10px;
-}
-.Project_Card_Top_Title {
-  color: #16f2b3;
-  font-size: 20px;
-  font-weight: 600;
-}
-.Project_Card_Content_R1 {
-  font-size: 15px;
-}
-.Project_Card_Content_R2 {
-  font-size: 15px;
-}
-.c1{
+@media (max-width: 680px) {
+  .Project_Card_Crcl1 {
+    width: 10px;
+    height: 7px;
+  }
+  .Project_Card_Crcl2 {
+    width: 10px;
+    height: 7px;
+  }
+  .Project_Card_Crcl3 {
+    width: 10px;
+    height: 7px;
+  }
+  .Project_Card_Top_Title {
+    width: 85%;
+    color: #16f2b3;
+    font-size: 15px;
+    font-weight: 600;
+  }
+  .Project_Card_Content_R1 {
+    font-size: 12px;
+  }
+  .Project_Card_Content_R2 {
+    font-size: 12px;
+  }
+  .Project_Card_Top {
+    height: 50px;
+    padding-right: 10px;
+  }
+  c1{
     position: sticky;
     top: 70px;
 }
 .c2{
     position: sticky;
-    top: 130px;
+    top: 120px;
 }
 .c3{
     position: sticky;
-    top: 130px;
+    top: 120px;
 }
 .c4{
     position: sticky;
-    top: 130px;
+    top: 120px;
 }
 .c5{
     position: sticky;
     top: 130px;
-}
-.Project_Header {
-
-  top: 10px;
-}
-}
-
-@media (max-width: 680px) {
-  .Project_Card_Crcl1 {
-  width: 10px;
-  height: 7px;
-}
-.Project_Card_Crcl2 {
-  width: 10px;
-  height: 7px;
-}
-.Project_Card_Crcl3 {
-  width: 10px;
-  height: 7px;
-}
-.Project_Card_Top_Title {
-  color: #16f2b3;
-  font-size: 15px;
-  font-weight: 600;
-}
-.Project_Card_Content_R1 {
-  font-size: 15px;
-}
-.Project_Card_Content_R2 {
-  font-size: 15px;
 }
 }
