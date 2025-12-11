@@ -1,53 +1,32 @@
 import React from "react";
 import "./Skills.css";
-import Java from '../assets/Java.png'
-import HTML5 from '../assets/HTML5.png'
-import CSS3 from '../assets/CSS3.png'
-import Bootstrap from '../assets/Bootstrap.png'
-import JavaScript from '../assets/JS.png'
-import Reactjs from '../assets/React.png'
-import Vite from '../assets/Vite.png'
-import Node from '../assets/Node.png'
-import ExpressJs from '../assets/ExpressJS.png'
-import MongoDB from '../assets/MongoDB.png'
-import MySQL from '../assets/MySQL.png'
-import PostgresSQL from '../assets/PostgresSQL.png'
-import Firebase from '../assets/Firebase.png'
-import Postman from '../assets/Postman.png'
-import EmbeddedC from '../assets/EmbeddedC.png'
-import Arduino from '../assets/Arduino.png'
-import Git from '../assets/Git.png'
-import VSCode from '../assets/VSCode.png'
-import Eclipse from '../assets/Eclipse.png'
-import Intellij from '../assets/Intellij.png'
-import Netlify from '../assets/Netlify.png'
-import Vercel from '../assets/Vercel.png'
 import Marquee from "react-fast-marquee";
+
 const Skills = () => {
   const skills = [
-  { img: Java, title: "Java" },
-  { img: HTML5, title: "HTML5" },
-  { img: CSS3, title: "CSS3" },
-  { img: Bootstrap, title: "Bootstrap" },
-  { img: JavaScript, title: "JavaScript" },
-  { img: Reactjs, title: "React" },
-  { img: Vite, title: "Vite" },
-  { img: Node, title: "Node.js"},
-  { img: ExpressJs, title: "Express.js" },
-  { img: MongoDB, title: "MongoDB" },
-  { img: MySQL, title: "MySQL" },
-  { img: PostgresSQL, title: "PostgreSQL" },
-  { img: Firebase, title: "Firebase" },
-  { img: Postman, title: "Postman" },
-  { img: EmbeddedC, title: "Embedded C" },
-  { img: Arduino, title: "Arduino" },
-  { img: Git, title: "Git" },
-  { img: VSCode, title: "VS Code" },
-  { img: Eclipse, title: "Eclipse" },
-  { img: Intellij, title: "IntelliJ" },
-  { img: Netlify, title: "Netlify" },
-  { img: Vercel, title: "Vercel" },
-];
+    { img: "/assets/Java.png", title: "Java" },
+    { img: "/assets/HTML5.png", title: "HTML5" },
+    { img: "/assets/CSS3.png", title: "CSS3" },
+    { img: "/assets/Bootstrap.png", title: "Bootstrap" },
+    { img: "/assets/JS.png", title: "JavaScript" },
+    { img: "/assets/React.png", title: "React" },
+    { img: "/assets/Vite.png", title: "Vite" },
+    { img: "/assets/Node.png", title: "Node.js"},
+    { img: "/assets/ExpressJS.png", title: "Express.js" },
+    { img: "/assets/MongoDB.png", title: "MongoDB" },
+    { img: "/assets/MySQL.png", title: "MySQL" },
+    { img: "/assets/PostgresSQL.png", title: "PostgreSQL" },
+    { img: "/assets/Firebase.png", title: "Firebase" },
+    { img: "/assets/Postman.png", title: "Postman" },
+    { img: "/assets/EmbeddedC.png", title: "Embedded C" },
+    { img: "/assets/Arduino.png", title: "Arduino" },
+    { img: "/assets/Git.png", title: "Git" },
+    { img: "/assets/VSCode.png", title: "VS Code" },
+    { img: "/assets/Eclipse.png", title: "Eclipse" },
+    { img: "/assets/Intellij.png", title: "IntelliJ" },
+    { img: "/assets/Netlify.png", title: "Netlify" },
+    { img: "/assets/Vercel.png", title: "Vercel" },
+  ];
 
   return (
     <div id="Skills">
@@ -64,7 +43,6 @@ const Skills = () => {
                 <img src={m.img} alt={m.title} className="skill-icon" />
                 <p className="skill-title">{m.title}</p>
               </div>
-              
             ))}
           </Marquee>
         </div>

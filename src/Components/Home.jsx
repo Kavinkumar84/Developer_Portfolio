@@ -1,7 +1,7 @@
 import "./Home.css";
 import { Col, Row } from "react-bootstrap";
 import Lottie from "lottie-react";
-import bg from "../assets/Global.json";
+// import bg from "../assets/Global.json";
 import {
   FaDownload,
   FaGithub,

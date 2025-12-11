@@ -1,6 +1,6 @@
 import React from "react";
 import "./Educations.css";
-import Student from "../assets/Student1.json";
+import Student from "../Animation/Student1.json";
 import { Col, Row } from "react-bootstrap";
 import Lottie from "lottie-react";
 import { BsPersonWorkspace } from "react-icons/bs";
