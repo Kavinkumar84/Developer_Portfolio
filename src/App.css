@@ -7,3 +7,30 @@
     /* background-color: #030406; */
     background: linear-gradient(135deg, #151126 0%,#0D1224 50%, #0d1224 100%);
 }
+.Move_Top{
+    background: linear-gradient(
+    90deg,
+    rgb(233, 30, 140) 0%,
+    rgb(139, 63, 221) 100%
+  );
+  width: 43px;
+  height: 43px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  bottom: 78px;
+  right: 30px;
+  position: fixed;
+  z-index: 1;
+}
+
+@media (max-width: 400px) {
+    .Move_Top{
+        right: 20px;
+        bottom: 50px;
+        width: 35px;
+        height: 35px;
+    }
+}

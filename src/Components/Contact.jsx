@@ -139,7 +139,7 @@ const Contact = () => {
       </div>
       <hr className="Contact_hr"/>
       <div className="Contact_Footer">
-        <div className="Contact_Footer_txt">© Developer Portfolio by <a href="https://github.com/Kavinkumar84/Developer_Portfolio" target="_blank">Kavin Kumar</a></div>
+        <div className="Contact_Footer_txt">© Developed by <a href="https://github.com/Kavinkumar84/Developer_Portfolio" target="_blank">Kavin Kumar</a></div>
         <div className="Contact_Footer_right">
           <div className="Contact_Footer_Star">
             <a href="https://github.com/Kavinkumar84/Developer_Portfolio" target="_blank">

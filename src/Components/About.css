@@ -92,7 +92,7 @@
   .About_Right_box {
     writing-mode: vertical-rl;
     transform: rotate(270deg);
-    height: 170px;
+    height: 170px;  
     /* font-size: 1px; */
   }
   .About_Right_title {

@@ -12,7 +12,7 @@ import {
 import { SiGeeksforgeeks, SiLeetcode } from "react-icons/si";
 const Home = () => {
   return (
-    <div className="Home">
+    <div id="Home" >
       <div className="Home_bg">
         
         <div className="Home_Container1">

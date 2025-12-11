@@ -79,3 +79,8 @@
   justify-content: center;
   border: 1px solid rgb(25, 21, 21);
 }
+@media (max-width: 991px) {
+  #Skills{
+    padding-top: 40px;
+  }
+}
