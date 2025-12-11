@@ -32,7 +32,7 @@ const Skills = () => {
   { img: JavaScript, title: "JavaScript" },
   { img: Reactjs, title: "React" },
   { img: Vite, title: "Vite" },
-  { img: Node, title: "Node.js" },
+  { img: Node, title: "Node.js"},
   { img: ExpressJs, title: "Express.js" },
   { img: MongoDB, title: "MongoDB" },
   { img: MySQL, title: "MySQL" },
@@ -64,6 +64,7 @@ const Skills = () => {
                 <img src={m.img} alt={m.title} className="skill-icon" />
                 <p className="skill-title">{m.title}</p>
               </div>
+              
             ))}
           </Marquee>
         </div>
