@@ -1,10 +1,8 @@
 import React from "react";
 import "./Experience.css";
 import { Col, Row } from "react-bootstrap";
-import { MdDescription } from "react-icons/md";
 import { FaCode } from "react-icons/fa6";
 import { DiAtom } from "react-icons/di";
-import { CgAdd } from "react-icons/cg";
 import { GoBook, GoTrophy } from "react-icons/go";
 import { CiCalendar } from "react-icons/ci";
 import { SlBadge } from "react-icons/sl";

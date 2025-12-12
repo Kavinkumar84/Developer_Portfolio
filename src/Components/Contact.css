@@ -1,24 +1,23 @@
 #Contact {
-  /* background-color: #0d1224; */
-  /* background-color: black; */
   width: 100%;
   min-height: 100vh;
-  /* padding: 0px 60px 0px 60px; */
 }
+
 .Contact_container {
   width: 90%;
   min-height: 400px;
   margin-left: 5%;
 }
+
 .Contact_left {
-  /* border: 1px solid white; */
   min-height: 400px;
 }
+
 .Contact_Right_title {
   width: 100%;
   height: 400px;
-  /* border: 2px solid white; */
 }
+
 .Contact_Right_title {
   display: flex;
   align-items: center;
@@ -40,27 +39,36 @@
   text-transform: uppercase;
   letter-spacing: 2px;
 }
+
 .line_about {
   height: 50px;
   border: 1px solid #2C2254;
-  
 }
+
 .Contact_Container_Rotate {
   display: flex;
   flex-direction: row;
-  /* padding-right: -80px; */
 }
+
 .Contact_Form_container,
 .Contact_Address {
-  /* border: 2px solid white; */
   min-height: 600px;
 }
+
 .Form_txt1 {
   text-transform: uppercase;
   color: #16f2b3;
   font-size: 20px;
   font-weight: 500;
+  transition: all 0.3s ease;
 }
+
+.Form_txt1:hover {
+  transform: translateX(5px);
+  text-shadow: 0 0 15px rgba(22, 242, 179, 0.6);
+}
+
+/* Enhanced Form Box */
 .Form_box {
   width: 100%;
   border: 1px solid gray;
@@ -69,34 +77,78 @@
   padding: 30px;
   margin-top: 30px;
   color: white;
+  transition: all 0.4s ease;
+  position: relative;
+  overflow: hidden;
 }
+
+.Form_box::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: 10px;
+  padding: 1px;
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  opacity: 0;
+  pointer-events: none;   /* ← FIX */
+  transition: opacity 0.4s ease;
+}
+
+
+.Form_box:hover::before {
+  opacity: 1;
+}
+
+.Form_box:hover {
+  box-shadow: 0 10px 40px rgba(230, 0, 118, 0.2);
+  transform: translateY(-5px);
+}
+
 .Contact_Label {
   font-size: 18px;
 }
+
 .input_group {
   margin-top: 17px;
   display: flex;
   flex-direction: column;
 }
+
+.user-label {
+  transition: all 0.3s ease;
+}
+
+
+
+/* Enhanced Input Fields */
 .Contact_Form_input {
   margin-top: 5px;
   height: 45px;
   border-radius: 10px;
-  border-top-left-radius: 10px;
   background-color: #10172d;
   border: 1px solid gray;
-  /* border: 2px solid red; */
+  padding: 0 15px;
+  color: white;
+  transition: all 0.3s ease;
 }
+
+
+
 .bigInput {
   width: 100%;
-  height: 100px; /* adjust height */
+  height: 100px;
   padding: 12px;
   border-radius: 8px;
   border: 1px solid #ccc;
   resize: vertical;
   font-size: 16px;
   background-color: #10172d;
+  color: white;
+  transition: all 0.3s ease;
 }
+
+
 button {
   background: linear-gradient(
     90deg,
@@ -110,23 +162,62 @@ button {
   font-weight: 600;
   font-size: 14px;
   cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
 }
+
+button::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 0;
+  height: 0;
+  /* background: rgba(255, 255, 255, 0.2); */
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  /* transition: width 0.5s ease, height 0.5s ease; */
+}
+
+button:hover::before {
+  width: 300px;
+  height: 300px;
+}
+
+/* button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 30px rgba(230, 0, 118, 0.4);
+} */
+
+button:active {
+  transform: translateY(-1px);
+}
+
 .Contact_btn {
   margin-top: 17px;
   width: 100%;
   display: flex;
   justify-content: center;
 }
+
 .sendBtn {
   font-size: 15px;
   display: flex;
   align-items: center;
   gap: 5px;
 }
+
 .mail_icon {
   font-size: 21px;
+  transition: transform 0.3s ease;
 }
 
+button:hover .mail_icon {
+  transform: translateX(5px) rotate(15deg);
+}
+
+/* Enhanced Address Circle */
 .Contact_Address_Circle {
   width: 40px;
   height: 40px;
@@ -138,36 +229,63 @@ button {
   font-size: 19px;
   font-weight: 100;
   color: #1e2939;
+  transition: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
+
+.Contact_Address_Mail:hover .Contact_Address_Circle {
+  background-color: #e60076;
+  color: white;
+  transform: scale(1.15) rotate(360deg);
+}
+
 .Contact_Address {
   padding-left: 30px;
   display: flex;
   flex-direction: column;
-  /* align-items: center; */
   justify-content: center;
   gap: 70px;
 }
+
 .Contact_Address_box {
-  /* border: 1px solid red; */
   display: flex;
   flex-direction: column;
   gap: 30px;
 }
+
 .Contact_Address_box a {
   text-decoration: none;
   color: white;
   font-size: 24px;
   font-weight: 400;
+  transition: all 0.3s ease;
 }
+
+/* Enhanced Address Mail Item */
 .Contact_Address_Mail {
   display: flex;
   align-items: center;
   gap: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  transition: all 0.3s ease;
 }
+
+.Contact_Address_Mail:hover {
+  transform: translateX(10px);
+}
+
+.Address_Mail {
+  transition: all 0.3s ease;
+}
+
+
+
+/* Enhanced Social Icons */
 .Contact_Social_Icons {
   display: flex;
   gap: 20px;
 }
+
 .Contact_iconss {
   font-size: 25px;
   width: 50px;
@@ -178,48 +296,123 @@ button {
   justify-content: center;
   align-items: center;
   color: #1e2939;
+  transition: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  cursor: pointer;
+  position: relative;
 }
-.Contact_hr{
+
+.Contact_iconss::before {
+  content: '';
+  position: absolute;
+  inset: -3px;
+  border-radius: 50%;
+  /* background: linear-gradient(135deg, #e60076, #16f2b3); */
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: -1;
+}
+
+.Contact_iconss:hover::before {
+  opacity: 1;
+}
+
+.Contact_iconss:hover {
+  background-color: #e60076;
+  color: white;
+  transform: translateY(-8px) scale(1.15);
+  /* box-shadow: 0 10px 25px rgba(230, 0, 118, 0.4); */
+}
+
+.Contact_iconss:active {
+  transform: translateY(-4px) scale(1.1);
+}
+
+.Contact_hr {
   color: white;
 }
-.Contact_Footer{
+
+/* Enhanced Footer */
+.Contact_Footer {
   height: 60px;
   width: 100%;
-  /* border: 1px solid red; */
   display: flex;
   align-items: center;
-}
-.Contact_Footer_txt{
-  color: white;
-  font-size: 15px;
-}
-.Contact_Footer_txt a{
-  text-decoration: none;
-  color: #16f2b3;
-}
-.Contact_Footer_Star{
-  color: white;
-}
-.Contact_Footer_right, .Contact_Footer_Star a{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 10px;
-}
-.Contact_Footer{
   padding-left: 30px;
   padding-right: 30px;
   display: flex;
   justify-content: space-between;
 }
-.Contact_Footer_Star a{
-  text-decoration: none;
+
+.Contact_Footer_txt {
   color: white;
-}
-.Contact_Footer_Star a:hover{
-  color: #16f2b3;
+  font-size: 15px;
+  transition: all 0.3s ease;
 }
 
+.Contact_Footer_txt:hover {
+  transform: translateX(5px);
+}
+
+.Contact_Footer_txt a {
+  text-decoration: none;
+  color: #16f2b3;
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.Contact_Footer_txt a::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: #16f2b3;
+  transition: width 0.3s ease;
+}
+
+.Contact_Footer_txt a:hover::after {
+  width: 100%;
+}
+
+.Contact_Footer_txt a:hover {
+  text-shadow: 0 0 10px rgba(22, 242, 179, 0.5);
+}
+
+.Contact_Footer_Star {
+  color: white;
+  transition: all 0.3s ease;
+}
+
+.Contact_Footer_right,
+.Contact_Footer_Star a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.Contact_Footer_Star a {
+  text-decoration: none;
+  color: white;
+  padding: 8px 15px;
+  border-radius: 20px;
+  transition: all 0.3s ease;
+  border: 1px solid transparent;
+}
+
+.Contact_Footer_Star a:hover {
+  color: #16f2b3;
+  transform: translateY(-3px);
+}
+
+.Star_txt {
+  transition: all 0.3s ease;
+}
+
+.Contact_Footer_Star a:hover .Star_txt {
+  letter-spacing: 1px;
+}
 
 @media (max-width: 1124px) {
   .Contact_Address_box a {
@@ -236,17 +429,16 @@ button {
     padding-bottom: 50px;
   }
 }
+
 @media (max-width: 991px) {
   .Contact_Container_Rotate {
     display: flex;
     flex-direction: column-reverse;
-    /* padding-right: -80px; */
   }
   .Contact_Right_box {
     writing-mode: vertical-rl;
     transform: rotate(270deg);
     min-height: 200px;
-    /* font-size: 1px; */
   }
   .Contact_Right_title {
     width: 100%;
@@ -256,7 +448,6 @@ button {
   .line_about {
     width: 140px;
     height: 1px;
-    /* flex-direction: row-reverse; */
     border: 1px solid #1a1740;
   }
   .Form_txt1 {
@@ -264,18 +455,12 @@ button {
   }
   .Contact_left {
     min-height: 10px;
-    /* padding-top: 30px; */
     margin-top: 0px;
   }
-  .Contact_Address{
+  .Contact_Address {
     padding-left: 0px;
   }
- 
 }
-@media (max-width: 375px) {
-  
-}
-
 
 @media (max-width: 400px) {
   .Contact_Address_box a {
@@ -295,8 +480,7 @@ button {
     width: 30px;
     height: 30px;
   }
-  .Contact_Address{
+  .Contact_Address {
     gap: 50px;
   }
-  
 }

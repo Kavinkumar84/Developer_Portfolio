@@ -10,11 +10,47 @@ import {
   FaUser,
 } from "react-icons/fa";
 import { SiGeeksforgeeks, SiLeetcode } from "react-icons/si";
+import { useEffect, useRef, useState } from "react";
 const Home = () => {
+  const [menuOpen, setMenuOpen] = useState(false);
+  const menuRef = useRef(null);
+  const buttonRef = useRef(null);
+useEffect(() => {
+  const handleResize = () => {
+    if (window.innerWidth >= 880) {
+      setMenuOpen(false);
+    }
+  };
+
+  window.addEventListener("resize", handleResize);
+
+  return () => window.removeEventListener("resize", handleResize);
+}, []);
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (
+        menuRef.current &&
+        !menuRef.current.contains(event.target) &&
+        buttonRef.current &&
+        !buttonRef.current.contains(event.target)
+      ) {
+        setMenuOpen(false);
+      }
+    };
+
+    if (menuOpen) {
+      document.addEventListener("mousedown", handleClickOutside);
+    } else {
+      document.removeEventListener("mousedown", handleClickOutside);
+    }
+
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, [menuOpen]);
   return (
-    <div id="Home" >
+    <div id="Home">
       <div className="Home_bg">
-        
         <div className="Home_Container1">
           <div className="Home_Header">
             <div className="Header_name">Kavin Kumar</div>
@@ -40,6 +76,44 @@ const Home = () => {
                 </li>
               </nav>
             </div>
+            <div className="Menbar">
+              <label class="hamburger" ref={buttonRef}>
+                <input
+                  type="checkbox"
+                  onChange={() => setMenuOpen(!menuOpen)}
+                  checked={menuOpen}
+                />
+                <svg viewBox="0 0 32 32">
+                  <path
+                    class="line line-top-bottom"
+                    d="M27 10 13 10C10.8 10 9 8.2 9 6 9 3.5 10.8 2 13 2 15.2 2 17 3.8 17 6L17 26C17 28.2 18.8 30 21 30 23.2 30 25 28.2 25 26 25 23.8 23.2 22 21 22L7 22"
+                  ></path>
+                  <path class="line" d="M7 16 27 16"></path>
+                </svg>
+              </label>
+            </div>
+            {menuOpen && (
+              <div className="MobileMenu" ref={menuRef}>
+                <a href="#About" onClick={() => setMenuOpen(false)}>
+                  ABOUT
+                </a>
+                <a href="#Experience" onClick={() => setMenuOpen(false)}>
+                  EXPERIENCE
+                </a>
+                <a href="#Skills" onClick={() => setMenuOpen(false)}>
+                  SKILLS
+                </a>
+                <a href="#Educations" onClick={() => setMenuOpen(false)}>
+                  EDUCATION
+                </a>
+                <a href="#Projects" onClick={() => setMenuOpen(false)}>
+                  PROJECTS
+                </a>
+                <a href="#Contact" onClick={() => setMenuOpen(false)}>
+                  CONTACT
+                </a>
+              </div>
+            )}
           </div>
           <div className="Home_container">
             <Row>
@@ -54,7 +128,7 @@ const Home = () => {
                       KAVIN KUMAR
                     </span>{" "}
                     , I'm a Professional
-                    <span style={{ color: "#16f2b3" }}> Web Developer.</span>
+                    <span style={{ color: "#16f2b3" }}> FullStack Developer.</span>
                   </div>
                   <div className="Social_Icons">
                     <a href="https://github.com/Kavinkumar84" target="_blank">
@@ -93,14 +167,18 @@ const Home = () => {
                     </a>
                   </div>
                   <div className="buttons-wrapper">
-                    <button className="btn btn-contact">
-                      CONTACT ME
-                      <FaUser size={20} />
-                    </button>
-                    <button className="btn btn-resume">
-                      GET RESUME
-                      <FaDownload size={20} />
-                    </button>
+                    <a href="#Contact" style={{textDecoration :"none"}}>
+                      <button className="btn btn-contact">
+                        CONTACT ME
+                        <FaUser size={20} />
+                      </button>
+                    </a>
+                    <a href="https://drive.google.com/file/d/1BaEXRpDEfcsnsqOMPcUNvGXo9krz_9Nd/view?usp=sharing" target="_blank" style={{textDecoration :"none"}}>
+                      <button className="btn btn-resume">
+                        GET RESUME
+                        <FaDownload size={20} />
+                      </button>
+                    </a>
                   </div>
                 </div>
               </Col>
