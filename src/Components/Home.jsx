@@ -124,9 +124,9 @@ useEffect(() => {
                     <br />
                     This is
                     <span className="" style={{ color: "#E60076" }}>
-                      {" "}
+                      
                       KAVIN KUMAR
-                    </span>{" "}
+                    </span>
                     , I'm a Professional
                     <span style={{ color: "#16f2b3" }}> FullStack Developer.</span>
                   </div>
@@ -199,7 +199,7 @@ useEffect(() => {
                     <div className="card__content">
                       <div className="Home_card_txt">
                         <div>
-                          <span style={{ color: "#e60076" }}>const</span>{" "}
+                          <span style={{ color: "#e60076" }}>const</span>
                           Developer<span style={{ color: "#e60076" }}> = </span>
                           {"{"}
                         </div>
@@ -213,12 +213,12 @@ useEffect(() => {
                             title:'
                             <span className="yellow_code_txt">
                               MERN Stack Developer
-                            </span>{" "}
-                            |{" "}
+                            </span>
+                            |
                             <span className="yellow_code_txt">
                               React.js Developer
-                            </span>{" "}
-                            |{" "}
+                            </span>
+                            |
                             <span className="yellow_code_txt">
                               Node.js Developer
                             </span>
@@ -245,22 +245,22 @@ useEffect(() => {
                             ],
                           </div>
                           <div className="">
-                            hardWorker:{" "}
+                            hardWorker:
                             <span className="orrange_code_txt">true</span>,
                           </div>
                           <div className="">
-                            quickLearner:{" "}
+                            quickLearner:
                             <span className="orrange_code_txt">true</span>,
                           </div>
                           <div className="">
-                            problemSolver:{" "}
+                            problemSolver:
                             <span className="orrange_code_txt">true</span>,
                           </div>
                           <div className="">
                             <span className="green_code_txt">hireable: </span>
                             <span className="orrange_code_txt">
                               function
-                            </span>() {"{"}{" "}
+                            </span>() {"{"}
                           </div>
                           <div className="Home_card_txt1">
                             <div className="">
@@ -269,17 +269,17 @@ useEffect(() => {
                             <div className="Home_card_txt1">
                               <div className="">
                                 <span className="blue_code_txt">this.</span>
-                                hardWorker{" "}
+                                hardWorker
                                 <span className="yellow_code_txt">&&</span>
                               </div>
                               <div className="">
                                 <span className="blue_code_txt">this.</span>
-                                problemSolver{" "}
+                                problemSolver
                                 <span className="yellow_code_txt">&&</span>
                               </div>
                               <div className="">
                                 <span className="blue_code_txt">this.</span>
-                                skills.length{" "}
+                                skills.length
                                 <span className="yellow_code_txt">{">"}=</span>
                                 <span className="orrange_code_txt"> 5</span>
                               </div>
