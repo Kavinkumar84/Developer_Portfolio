@@ -23,7 +23,7 @@ const Skills = () => {
     { img: "/assets/Git.png", title: "Git" },
     { img: "/assets/VSCode.png", title: "VS Code" },
     { img: "/assets/Eclipse.png", title: "Eclipse" },
-    { img: "/assets/Intellij.png", title: "IntelliJ" },
+    { img: "/assets/IntelliJ.png", title: "IntelliJ" },
     { img: "/assets/Netlify.png", title: "Netlify" },
     { img: "/assets/Vercel.png", title: "Vercel" },
   ];
