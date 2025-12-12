@@ -3,10 +3,10 @@
 
 Welcome to my personal **FullStack Developer Portfolio**, built using **React.js**.  
 This website showcases my skills, experience, projects, education, and contact details in a modern and responsive UI.
-
+---
+🌐 **Live Demo:** https://kavin-devportfolio.vercel.app  
 
 ---
-
 ## 🚀 Features
 
 - ⚛️ Developed using **React.js**
@@ -97,21 +97,18 @@ Deploy this portfolio with ease:
 
 ---
 
-## 📸 Screenshots (optional)
+## 📸 Screenshots
 
-```markdown
 ![Home Page](public/Screenshot/image.png)
-```
 
 ---
 
 ## 📬 Contact
 
 **Kavin Kumar**
-🐙 GitHub: [https://github.com/Kavinkumar84]([https://github.com/](https://github.com/Kavinkumar84))KavinKumar84
-🔗 LinkedIn: [[https://linkedin.com/in/](https://linkedin.com/in/](https://www.linkedin.com/in/kavinkumar84/))Kavin Kumar V
 
----
+🐙 GitHub: https://github.com/Kavinkumar84  
+🔗 LinkedIn: https://www.linkedin.com/in/kavinkumar84/
 
 ## ⭐ Support
 
